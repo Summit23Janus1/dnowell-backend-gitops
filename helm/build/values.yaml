@@ -1,0 +1,15 @@
+app:
+  name: dnowell-poi-backend-app
+  namespace: dnowell
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/dnowell-backend
+  org: Summit23Janus1
+  name: dnowell-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: dnowell/poi-backend-app
+  tag: latest
